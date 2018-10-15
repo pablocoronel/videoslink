@@ -1,0 +1,127 @@
+#content #general{
+	background-color: #155316;
+	position: relative;
+	width: 850px;
+	height: 275px;
+	left: 50%;
+	margin-left: -425px;
+	top: 10px;
+	padding: 15px;
+	overflow: hidden;
+	-moz-border-radius: 7px;
+	border-radius: px;
+	-webkit-border-radius: 7px;
+}
+#content #marco_1{
+	width: 820px;
+	height: 242px;
+	padding: 15px;
+	overflow: hidden;
+	background-color: #F9FBFA;
+	-moz-border-radius: 7px;
+	border-radius: px;
+	-webkit-border-radius: 7px;
+}
+.fila{
+	background-color: green;
+	position: relative;
+	width: 820px;
+	height: 50px;	
+}
+/* FIN DIV'S PRINCIPALES */
+.items{
+	background-color: transparent;
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 40px;
+}
+.campos{
+	background-color: transparent;
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 40px;
+}
+.mensajes{
+	background-color: transparent;
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 40px;
+	text-align: center;
+}
+/*************************************************************************/
+#cam_0{
+	background-color: #f2eaa0;
+	height: 40px;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 22px;
+	font-style: italic;
+	border-left-style: solid;
+	border-left-color: #8a8a8a;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8a8a8a;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #8a8a8a;
+	border-top-width: 1px;
+}
+#cam_1{
+	background-color: #cbcbcb;
+	height: 40px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	border-left-style: solid;
+	border-left-color: #8a8a8a;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8a8a8a;
+	border-right-width: 1px;
+}
+#cam_2{
+	background-color: #e4e4e4;
+	height: 40px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	border-left-style: solid;
+	border-left-color: #8a8a8a;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8a8a8a;
+	border-right-width: 1px;
+}
+/*********************************************/
+#cambio_clave input[type='text'], input[type='password']{
+	background-color: #F9FBFA;
+	width: 300px;
+	height: 25px;
+	border-color: #8a8a8a;
+	border-style: solid;
+	border-width: 3px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	margin: 5px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+#cambio_clave input[type='submit']{
+	background-color: #155316;
+	width: 200px;
+	height: 30px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 5%;
+	margin-top: 3px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: white;
+}

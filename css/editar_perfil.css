@@ -1,0 +1,288 @@
+#content #general{
+	background-color: transparent;
+	position: relative;
+	top: 10px;
+	margin-left: 10px;
+	width: 1200px;
+	height: 480px;
+	overflow: hidden;
+}
+
+#content #general_editar_perfil{
+	background-color: #155316;
+	position: relative;
+	width: 790px;
+	height: 440px;
+	padding: 15px;
+	overflow: hidden;
+	-moz-border-radius: 7px;
+	border-radius: px;
+	-webkit-border-radius: 7px;
+}
+#content #marco_1{
+	width: 760px;
+	height: 405px;
+	padding: 15px;
+	overflow: hidden;
+	background-color: #F9FBFA;
+	-moz-border-radius: 7px;
+	border-radius: px;
+	-webkit-border-radius: 7px;
+}
+.fila{
+	background-color: green;
+	position: relative;
+	width: 760px;
+	height: 50px;	
+}
+/* FIN DIV'S PRINCIPALES */
+.items{
+	background-color: transparent;
+	position: relative;
+	float: left;
+	width: 230px;
+	height: 40px;
+}
+.campos{
+	background-color: transparent;
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 40px;
+}
+.mensajes{
+	background-color: transparent;
+	position: relative;
+	float: left;
+	width: 230px;
+	height: 40px;
+	text-align: center;
+}
+/*************************************************************************/
+#cam_0{
+	background-color: #f2eaa0;
+	height: 40px;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 22px;
+	font-style: italic;
+	border-left-style: solid;
+	border-left-color: #8a8a8a;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8a8a8a;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #8a8a8a;
+	border-top-width: 1px;
+}
+#cam_1{
+	background-color: #cbcbcb;
+	height: 40px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	border-left-style: solid;
+	border-left-color: #8a8a8a;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8a8a8a;
+	border-right-width: 1px;
+}
+#cam_2{
+	background-color: #e4e4e4;
+	height: 40px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	border-left-style: solid;
+	border-left-color: #8a8a8a;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8a8a8a;
+	border-right-width: 1px;
+}
+/*********************************************/
+#editar_perfil input[type='text'], input[type='password']{
+	background-color: #F9FBFA;
+	width: 300px;
+	height: 25px;
+	border-color: #8a8a8a;
+	border-style: solid;
+	border-width: 3px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	margin: 5px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+#editar_perfil input[type='submit']{
+	background-color: #155316;
+	width: 200px;
+	height: 30px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 5%;
+	margin-top: 3px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: white;
+}
+#editar_perfil button{
+	background-color: #155316;
+	width: 250px;	
+	height: 30px;	
+	border-color: #738295;	
+	border-style: solid;	
+	border-width: 3px;	
+	margin-top: 3px;	
+	font-family: Calibri;	
+	font-size: 20px;	
+	color: white;
+}
+#dia, #anio{
+	background-color: #F9FBFA;
+	width: 70px;
+	height: 25px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	font-size: 16px;
+}
+#mes{
+	background-color: #F9FBFA;
+	width: 80px;
+	height: 25px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	font-size: 16px;
+}
+#pais{
+	background-color: #F9FBFA;
+	width: 150px;
+	height: 25px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	font-size: 16px;
+}
+/*********************************************************************************/
+/* CAMBIAR AVATAR */
+#avatar{
+	background-color: #155316;
+	position: relative;
+	top: -470px;
+	left: 840px;
+	width: 310px;
+	height: 318px;
+	padding: 15px;
+	overflow: hidden;
+	-moz-border-radius: 7px;
+	border-radius: px;
+	-webkit-border-radius: 7px;
+}
+#marco_2{
+	width: 280px;
+	height: 285px;
+	padding: 15px;
+	overflow: hidden;
+	background-color: #F9FBFA;
+	-moz-border-radius: 7px;
+	border-radius: px;
+	-webkit-border-radius: 7px;
+}
+#titulo_avatar{
+	background-color: #f2eaa0;
+	position: relative;
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	border-left-style: solid;
+	border-left-color: #8a8a8a;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8a8a8a;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #8a8a8a;
+	border-top-width: 1px;
+}
+#avatar #titulo_avatar #span_avatar{
+	font-family: Cambria;
+	font-size: 22px;
+	font-style: italic;
+}
+#cuerpo_avatar{
+	background-color: transparent;
+	position: relative;
+	height: 245px;
+	width: 280px;
+	border-left-style: solid;
+	border-left-color: #8a8a8a;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8a8a8a;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #8a8a8a;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #8a8a8a;
+	border-bottom-width: 1px;
+}
+#avatar img{
+	background-color: #f5f5dc;
+	height: 170px;
+	width: 170px;
+	position: relative;
+	left: 55px;
+	top: 10px;
+}
+#seleccion_img{
+	position: relative;
+	top: 15px;
+	left: 5px;
+	height: 25px;
+	width: 180px;
+}
+#seleccion_submit{
+	position: relative;
+	top: 18px;
+	left: 105px;
+}
+#avatar input[type='file']{
+	background-color: #155316;
+	width: 270px;
+	height: 28px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	font-family: Calibri;
+	font-size: 16px;
+	color: white;
+}
+#avatar input[type='submit']{
+	background-color: #155316;
+	width: 70px;
+	height: 25px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	font-family: Calibri;
+	font-size: 18px;
+	color: white;
+}

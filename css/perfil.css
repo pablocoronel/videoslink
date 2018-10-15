@@ -1,0 +1,281 @@
+#general{
+	background-color: transparent;
+	margin: 10px;
+}
+a{
+	text-decoration: none;
+	color: #00016c;
+}
+#content #usuario{
+	background-color: #cbcbcb;
+	height: 170px;
+	width: 975px;
+	-moz-border-top-left-radius: 7px;
+	border-top-left-radius: px;
+	-webkit-border-top-left-radius: 7px;
+	-moz-border-top-right-radius: 7px;
+	border-top-right-radius: px;
+	-webkit-border-top-right-radius: 7px;
+	border-color: #155316;
+	border-style: solid;
+	border-width: 3px;
+}
+
+#content #usuario #avatar_marco{
+	background-color: #707070;
+	height: 150px;
+	width: 150px;
+	left: 25px;
+	top: 15px;
+	position: relative;
+	-moz-border-radius: 7px;
+	border-radius: px;
+	-webkit-border-radius: 7px;
+}
+
+#content #usuario #avatar{
+	background-color: #f0e690;
+	height: 140px;
+	width: 140px;
+	left: 5px;
+	top: 5px;
+	position: relative;
+}
+#datos_usuario{
+	position: relative;
+	background-color: transparent;
+	width: 700px;
+	height: 150px;
+	top: -135px;
+	left: 185px;
+	overflow: hidden;
+}
+#online{
+	position: relative;
+	background-color: silver;
+	width: 7px;
+	height: 140px;
+	left: 0px;
+	top: 5px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+#user{
+	position: relative;
+	background-color: transparent;
+	height: 25px;
+	width: 50px;
+	left: 20px;
+	top: -120px;
+	font-family: "Calisto MT";
+	font-size: 30px;
+	color: black;
+}
+#sexo{
+	position: relative;
+	background-color: transparent;
+	height: 25px;
+	width: 150px;
+	left: 20px;
+	top: -100px;
+	font-family: serif;
+	font-size: 18px;
+	color: black;
+}
+#edad{
+	position: relative;
+	background-color: transparent;
+	height: 25px;
+	width: 150px;
+	left: 35px;
+	top: -100px;
+	font-family: serif;
+	font-size: 18px;
+	color: black;
+}
+#pais{
+	position: relative;
+	background-color: transparent;
+	height: 25px;
+	width: 150px;
+	left: 50px;
+	top: -100px;
+	font-family: serif;
+	font-size: 18px;
+	color: black;
+}
+#fecha_registro{
+	position: relative;
+	background-color: transparent;
+	height: 25px;
+	width: 200px;
+	left: 70px;
+	top: -100px;
+	font-family: serif;
+	font-size: 18px;
+	color: black;
+}
+/***********************************************************************************************/
+#content #actividad{
+	background-color: #155316;
+	height: 50px;
+	width: 981px;
+}
+
+#content #actividad #rango{
+	background-color: #F9FBFA;
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 20px;
+	top: 0px;
+	font-family: "Arial Special G1";
+	font-size: 20px;
+	color: #738295;
+	text-align: center;
+}
+#content #actividad #rango span{
+	font-family: Calibri;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+#content #actividad #post{
+	background-color: #F9FBFA;
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 180px;
+	top: -50px;
+	font-family: "Arial Special G1";
+	font-size: 20px;
+	color: #738295;
+	text-align: center;
+}
+#content #actividad #post span{
+	font-family: Calibri;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+#content #actividad #comentarios{
+	background-color: #F9FBFA;
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 340px;
+	top: -100px;
+	font-family: "Arial Special G1";
+	font-size: 20px;
+	color: #738295;
+	text-align: center;
+}
+#content #actividad #comentarios span{
+	font-family: Calibri;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+#content #actividad #pais{
+	background-color: #F9FBFA;
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 500px;
+	top: -150px;
+	font-family: "Arial Special G1";
+	font-size: 20px;
+	color: #738295;
+	text-align: center;
+}
+#content #actividad #mensaje{
+	background-color: #F9FBFA;
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 660px;
+	top: -200px;
+	font-family: "Arial Special G1";
+	font-size: 20px;
+	color: #738295;
+	text-align: center;
+}
+#content #actividad #mensaje span{
+	font-family: Calibri;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+#content #actividad #perfil{
+	background-color: #F9FBFA;
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 820px;
+	top: -250px;
+	font-family: "Arial Special G1";
+	font-size: 20px;
+	color: #738295;
+	text-align: center;
+}
+#content #actividad #perfil span{
+	font-family: Calibri;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+/***********************************************************************************************/
+#content #listado_post{
+	background-color: #e4e4e4;
+	height: 430px;
+	width: 975px;
+	border-style: solid;
+	border-color: #155316;
+	border-width: 3px;
+}
+#content #titulo_post{
+	font-size: 22px;
+	font-family: "Cambria Math";
+	font-style: oblique;
+	margin-left: 10px;
+}
+#content #listado_post .post{
+	background-color: #F9FBFA;
+	height: 30px;
+	width: 785px;
+	margin-left: 25px;
+	margin-bottom: 5px;
+	position: relative;
+	top: 5px;
+}
+
+#content #listado_post .post #cat{
+	position: relative;
+	width: 80px;
+	height: 30px;
+	margin-left: 10px;
+	background-color: transparent;
+	font-family: Calibri;
+	font-size: 19px;
+}
+#content #listado_post .post #jue{
+	position: relative;
+	top: -30px;
+	width: 70px;
+	margin-left: 95px;
+}
+#content #listado_post .post #jue img{
+	position: relative;
+}
+
+#content #listado_post .post #tit{
+	position: relative;
+	width: 525px;
+	background-color: transparent;
+	margin-left: 175px;
+	overflow: hidden;
+	top: -60px;
+	font-family: Cambria;
+	font-size: 20px;
+}

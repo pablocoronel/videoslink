@@ -1,0 +1,242 @@
+/* Contenido general */
+#general{
+	background-color: transparent;
+	position: relative;
+	width: 1245px;
+	height: 700px;
+	margin: 10px;
+	overflow: hidden;
+}
+/* Menu principal*/
+#menu_admin{
+	background-color: #707070;
+	position: relative;
+	width: 200px;
+	height: 695px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-color: #f2eaa0;
+	border-style: solid;
+	border-width: 2px;
+}
+.menu_opciones{
+	background-color: #F9FBFA;
+	width: 200px;
+	height: 40px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+#menu{
+	background-color: #f2eaa0;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 20px;
+	font-style: italic;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.menu_opciones a{
+	text-decoration: none;
+	font-family: Cambria;
+	font-size: 18px;
+	color: black;
+}
+/* PANEL EN GENERAL */
+#fondo_panel{
+	background-color: #cbcbcb;
+	position: relative;
+	left: 210px;
+	top: -700px;
+	width: 1030px;
+	height: 695px;
+	border-color: #f0e690;
+	border-style: solid;
+	border-width: 2px;
+	overflow: hidden;
+}
+#fondo_panel a{
+	text-decoration: none;
+	color: blue;
+}
+#fondo_panel #barra_titulo{
+	background-color: #f2eaa0;
+	height: 40px;
+	width: 1050px;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 20px;
+	font-style: italic;
+}
+#fondo_panel #barra_usuario{
+	background-color: #e4e4e4;
+	height: 50px;
+	width: 1050px;
+	margin-bottom: 2px;
+	font-family: Cambria;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+}
+#fondo_panel .u_titulo{
+	background-color: #f2eaa0;
+	height: 40px;
+	width: 50px;
+	float: left;
+	border-right-style: inset;
+	border-right-color: gray;
+	border-right-width: 2px;
+	border-bottom-color: gray;
+	border-bottom-style: inset;
+	border-bottom-width: 2px;
+}
+#fondo_panel .u_usuario{
+	background-color: #e4e4e4;
+	height: 50px;
+	width: 50px;
+	float: left;
+	border-right-style: inset;
+	border-right-color: gray;
+	border-right-width: 2px;
+	border-bottom-color: gray;
+	border-bottom-style: inset;
+	border-bottom-width: 2px;
+}
+#div_guardar{
+	position: absolute;
+	background-color: #cbcbcb;
+	width: 1050px;
+	height: 35px;
+	top: 630px;
+	left: 0px;
+	border-top-color: gray;
+	border-top-style: inset;
+	border-top-width: 1px;
+}
+#paginado{
+	position: absolute;
+	background-color: #cbcbcb;
+	width: 1050px;
+	height: 35px;
+	top: 660px;
+	left: 0px;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 20px;
+}
+/* Boton Restaurar y Borrar */
+#boton_restaurar{
+	position: relative;
+	background-color: #32cb33;
+	width: 50px;
+	height: 30px;
+	left: 0px;
+	top: 10px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: #f9fbfa	
+}
+#boton_borrar{
+	position: relative;
+	background-color: #e33f00;
+	width: 50px;
+	height: 30px;
+	left: 0px;
+	top: 10px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: #f9fbfa	
+}
+#guardar_usuarios{
+	position: relative;
+	background-color: #155316;
+	width: 180px;
+	height: 30px;
+	left: 435px;
+	border-color: #738295;
+	border-style: solid;
+	border-width: 3px;
+	font-family: Calibri;
+	font-size: 20px;
+	color: white;	
+}
+/* USUARIOS */
+/*************************************************************************************/
+#fondo_panel #usr_tilde{
+	width: 30px;
+}
+#fondo_panel #usr_id{
+	width: 50px;
+}
+#fondo_panel #usr_avatar{
+	width: 75px;
+}
+#fondo_panel #usr_usuario{
+	width: 150px;
+}
+#fondo_panel #usr_rango{
+	width: 150px;
+}
+#fondo_panel #usr_perfil{
+	width: 80px;
+}
+#fondo_panel #usr_mp{
+	width: 80px;
+}
+#fondo_panel #usr_est_registro{
+	width: 150px;
+}
+#fondo_panel #usr_est_cuenta{
+	width: 150px;
+}
+#fondo_panel #usr_seleccionar{
+	width: 95px;
+}
+/* POST ELIMINADOS */
+/*************************************************************************************/
+#fondo_panel #post_tilde{
+	width: 30px;
+}
+#fondo_panel #post_id{
+	width: 50px;
+}
+#fondo_panel #post_titulo{
+	width: 280px;
+}
+#fondo_panel #post_id_autor{
+	width: 50px;
+}
+#fondo_panel #post_autor_post{
+	width: 140px;
+}
+#fondo_panel #post_categoria{
+	width: 110px;
+}
+#fondo_panel #post_juego{
+	width: 70px;
+}
+#fondo_panel #post_juego img{
+	
+}
+#fondo_panel #post_fecha_creacion{
+	width: 100px;
+}
+#fondo_panel #post_restaurar{
+	width: 95px;
+}
+#fondo_panel #post_seleccionar{
+	width: 95px;
+}
