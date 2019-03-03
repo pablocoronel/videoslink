@@ -1,5 +1,0 @@
-cambiar direccion web en el email de registro y en el email de perfil
-los dos archivos se llaman proceso.php
-
-modificar este dominio web:
-http://videoslink.com.ar
